@@ -1,4 +1,4 @@
 #!/bin/bash
 
-sphinx-apidoc -o . ../protocol ../protocol/*/third_party/ ../protocol/*/tests/ 
+sphinx-apidoc -o . ../imminent ../imminent/*/third_party/ ../imminent/*/tests/ 
 make singlehtml

@@ -19,7 +19,7 @@ def test_save_to_msgpack():
 
     data_file = os.path.join('simar', 'SIMAR_1052046')
     file_name = 'full_simar_preprocessed.msg'
-    path = 'D:\\REPOSITORIO GIT\\protocol_project\\data\\intermediate_files'
+    path = 'D:\\REPOSITORIO GIT\\imminent_project\\data\\intermediate_files'
 
     # Read simar
     data_simar, _ = read.simar(data_file, tests.full_data_path)

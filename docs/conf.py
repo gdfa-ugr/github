@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 #
-# protocol documentation build configuration file, created by
+# imminent documentation build configuration file, created by
 # sphinx-quickstart on Tue Oct 24 18:53:14 2017.
 #
 # This file is execfile()d with the current directory set to its
@@ -19,7 +19,7 @@
 import os
 import sys
 # sys.path.insert(0, os.path.abspath('.'))
-sys.path.insert(0, os.path.abspath('../protocol'))
+sys.path.insert(0, os.path.abspath('../imminent'))
 
 # Filter annoying Cython warnings that serve no good purpose
 # https://github.com/ContinuumIO/anaconda-issues/issues/6678
@@ -54,7 +54,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'protocol'
+project = u'imminent'
 copyright = u'2017, gdfa'
 author = u'gdfa'
 
@@ -124,7 +124,7 @@ html_sidebars = {
 # -- Options for HTMLHelp output ------------------------------------------
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'protocoldoc'
+htmlhelp_basename = 'imminentdoc'
 
 
 # -- Options for LaTeX output ---------------------------------------------
@@ -151,7 +151,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'protocol.tex', u'protocol Documentation',
+    (master_doc, 'imminent.tex', u'imminent Documentation',
      u'gdfa', 'manual'),
 ]
 
@@ -161,7 +161,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'protocol', u'protocol Documentation',
+    (master_doc, 'imminent', u'imminent Documentation',
      [author], 1)
 ]
 
@@ -172,8 +172,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'protocol', u'protocol Documentation',
-     author, 'protocol', 'One line description of project.',
+    (master_doc, 'imminent', u'imminent Documentation',
+     author, 'imminent', 'One line description of project.',
      'Miscellaneous'),
 ]
 
